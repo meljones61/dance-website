@@ -23,8 +23,8 @@
 	$font: (
 		family:				('Roboto', sans-serif),
 		family-fixed:		('Courier New', monospace),
-		weight:				400,
-		weight-bold:		700,
+		weight:				100,
+		weight-bold:		400,
 		letter-spacing:		-0.01em
 	);
 
@@ -33,7 +33,7 @@
 		bg:					#000,
 		fg:					rgba(255,255,255,0.75),
 		fg-bold:			#fff,
-		fg-light:			rgba(255,255,255,0.5),
+		fg-light:			rgba(255,255,255,0.8),
 		border:				rgba(255,255,255,0.35),
 		border-bg:			rgba(255,255,255,0.125),
 		border2:			rgba(255,255,255,0.25),

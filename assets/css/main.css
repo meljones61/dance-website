@@ -208,7 +208,7 @@ body, input, select, textarea {
   color: rgba(255, 255, 255, 0.75);
   font-family: "Roboto", sans-serif;
   font-size: 16pt;
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: -0.01em;
   line-height: 1.65em; }
   @media screen and (max-width: 1680px) {
@@ -242,7 +242,7 @@ a {
 
 strong, b {
   color: #fff;
-  font-weight: 700; }
+  font-weight: 400; }
 
 em, i {
   font-style: italic; }
@@ -252,7 +252,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1em;
   margin: 0 0 1em 0; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -261,7 +261,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2.5em;
-  line-height: 1.25em; }
+  line-height: 1.25em;
+  font-weight: 100; }
 
 h2 {
   font-size: 1.75em;
@@ -331,7 +332,7 @@ section.special, article.special {
   text-align: center; }
 
 header p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
   position: relative;
   margin: 0 0 1.5em 0; }
 
@@ -451,7 +452,7 @@ label {
   color: #fff;
   display: block;
   font-size: 0.9em;
-  font-weight: 700;
+  font-weight: 400;
   margin: 0 0 1em 0; }
 
 @-moz-keyframes focus {
@@ -621,7 +622,7 @@ input[type="radio"] {
     cursor: pointer;
     display: inline-block;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 100;
     padding-left: 2.4em;
     padding-right: 0.75em;
     position: relative; }
@@ -665,23 +666,23 @@ input[type="radio"] + label:before {
   border-radius: 100%; }
 
 ::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
   opacity: 1.0; }
 
 :-moz-placeholder {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
   opacity: 1.0; }
 
 ::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
   opacity: 1.0; }
 
 :-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
   opacity: 1.0; }
 
 .formerize-placeholder {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
   opacity: 1.0; }
 
 /* Button */
@@ -704,7 +705,7 @@ button,
   color: #ffffff !important;
   cursor: pointer;
   display: inline-block;
-  font-weight: 700;
+  font-weight: 400;
   height: 2.75em;
   line-height: 2.75em;
   padding: 0 1.125em;
@@ -806,7 +807,7 @@ button,
   -ms-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
   bottom: 4em;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
   left: 4em;
   opacity: 0.5;
   position: absolute; }
